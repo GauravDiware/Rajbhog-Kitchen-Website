@@ -24,17 +24,6 @@ Build Tool: Create React App
 
 Package Manager: npm
 
-📂 Project Setup
-
-This project was bootstrapped with Create React App.
-
-Prerequisites
-
-Make sure you have the following installed:
-
-Node.js
-
-npm
 
 
 👨‍💻 Author
