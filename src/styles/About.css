@@ -1,0 +1,72 @@
+.aboutus-container{
+      padding:20px;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+}
+
+.aboutus_imgbox{
+      width:auto;
+      height:auto;
+      padding:0px;
+      margin:10px;
+   
+}
+
+.aboutus-image{
+     height:500px;
+     border:2px solid gray;
+     border-radius:10px;
+
+}
+.aboutus_contentbox{
+      width:65%;
+      height:auto;
+      padding:10px;
+      margin:10px;
+      font-size:18px;
+      text-align:justify;
+      flex-direction:row;
+
+}
+
+.aboutus-buttonbox .btn{
+            color:goldenrod;
+            cursor:pointer;
+            justify-content:center;
+            margin:10px;
+            border:2px solid goldenrod;
+            border-radius:5px;
+            padding:10px 20px;
+
+            
+      }
+
+      .aboutus-buttonbox .btn:hover{
+      font-weight:bold;
+      transition:0.3s;
+      cursor:pointer;
+      border:2px solid goldenrod;
+      }
+
+@media only screen and (max-width:600px){
+      .aboutus-container{
+            flex-direction:column;
+            align-items:center;
+            padding:0px;
+
+      }
+
+      .aboutus-contentbox{
+            width:fit-content;
+            padding:0px;
+            margin-top:10px 0px 0px 0px;
+      }
+
+      .aboutus-image{
+            height:250px;
+            align-items:center;
+      }
+     
+      
+}
